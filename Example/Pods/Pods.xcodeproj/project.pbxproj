@@ -22,7 +22,8 @@
 		6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0487C500D6C14148A1DD382906DC804D /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DCAFBBF8F71A0EFE53AA662B319534 /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FFE0CB7B151061311C795E37705DE /* FBSnapshotTestCase-dummy.m */; };
-		6EE56AF724D9A457000CA6C7 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE56AF524D9A457000CA6C7 /* CTMediator+A.m */; };
+		6EE56AFE24D9AC5A000CA6C7 /* CTMediator+A.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE56AFC24D9AC5A000CA6C7 /* CTMediator+A.h */; };
+		6EE56AFF24D9AC5A000CA6C7 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE56AFD24D9AC5A000CA6C7 /* CTMediator+A.m */; };
 		71737AFDD6337C7EE09A764F03E3A821 /* A_category-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C3083C20195A8E0B0E784BB107C443 /* A_category-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 84788861FAB7C8AE2A671F54A0B87924 /* CTMediator+HandyTools.m */; };
 		85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 951D6AB293D49928AA0B0C4BC16954B8 /* CTMediator-dummy.m */; };
@@ -114,8 +115,8 @@
 		6301C071B0D8D866AF78D93C4B0DAEEF /* Pods-A_category_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-A_category_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		64BE9EBF30085B6C30E6D9E28E728E94 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EE56AF524D9A457000CA6C7 /* CTMediator+A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+A.m"; path = "Example/A_category/../../CTMediator+A.m"; sourceTree = "<group>"; };
-		6EE56AF624D9A457000CA6C7 /* CTMediator+A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CTMediator+A.h"; path = "Example/A_category/../../CTMediator+A.h"; sourceTree = "<group>"; };
+		6EE56AFC24D9AC5A000CA6C7 /* CTMediator+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+A.h"; path = "A_category/Classes/CTMediator+A.h"; sourceTree = "<group>"; };
+		6EE56AFD24D9AC5A000CA6C7 /* CTMediator+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+A.m"; path = "A_category/Classes/CTMediator+A.m"; sourceTree = "<group>"; };
 		6EF58B4E37B76D015E60A88BEF7D98CD /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		763661E29ACEB614F55A50851B452839 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		765CDEDD8E0D6CAC6FBA636E9391D77F /* Pods-A_category_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-A_category_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -388,8 +389,8 @@
 		F381B99ED25EAA1F64ED9F9D801737FC /* A_category */ = {
 			isa = PBXGroup;
 			children = (
-				6EE56AF624D9A457000CA6C7 /* CTMediator+A.h */,
-				6EE56AF524D9A457000CA6C7 /* CTMediator+A.m */,
+				6EE56AFC24D9AC5A000CA6C7 /* CTMediator+A.h */,
+				6EE56AFD24D9AC5A000CA6C7 /* CTMediator+A.m */,
 				F775A8E3322A179B074C6D83D7219CE9 /* Pod */,
 				6CA11276F0456510321243D89D1F4AB9 /* Support Files */,
 			);
@@ -458,6 +459,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE56AFE24D9AC5A000CA6C7 /* CTMediator+A.h in Headers */,
 				71737AFDD6337C7EE09A764F03E3A821 /* A_category-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,7 +652,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2DCE6A517CC097FA313E0340CEDB66 /* A_category-dummy.m in Sources */,
-				6EE56AF724D9A457000CA6C7 /* CTMediator+A.m in Sources */,
+				6EE56AFF24D9AC5A000CA6C7 /* CTMediator+A.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
