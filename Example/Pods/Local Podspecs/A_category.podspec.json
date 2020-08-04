@@ -1,0 +1,22 @@
+{
+  "name": "A_category",
+  "version": "0.1.0",
+  "summary": "A short description of A_category.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/492899051@qq.com/A_category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "492899051@qq.com": "492899051@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/492899051@qq.com/A_category.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "A_category/Classes/**/*"
+}

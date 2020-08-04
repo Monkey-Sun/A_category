@@ -1,0 +1,6 @@
+framework module A_category {
+  umbrella header "A_category-umbrella.h"
+
+  export *
+  module * { export * }
+}
