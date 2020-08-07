@@ -14,6 +14,6 @@
     /*
         AViewController *viewController = [[AViewController alloc] init];
      */
-    return [self performTarget:@"A" action:@"viewController" params:nil shouldCacheTarget:NO];
+    return [self performTarget:@"B" action:@"viewController" params:nil shouldCacheTarget:NO];
 }
 @end
